@@ -1,7 +1,7 @@
 import * as React from "react"
 import AppBar from "@mui/material/AppBar"
 import Toolbar from "@mui/material/Toolbar"
-import Button from "@mui/material/Button"
+import Button from "@material-ui/core/Button"   
 import Typography from "@mui/material/Typography"
 export default function Header() {
     return(
@@ -14,17 +14,53 @@ export default function Header() {
                 }
             }>
                 <Button color="inherit" ><Typography style={{
-                    fontWeight:700
-                }} variant="h5"
-                component="div" >Home</Typography></Button>
+                    fontWeight:700,
+                    textTransform:"none"
+                }} variant="h4"
+                component="div" fontFamily={[
+                    '-apple-system',
+                    'BlinkMacSystemFont',
+                    '"Segoe UI"',
+                    'Roboto',
+                    '"Helvetica Neue"',
+                    'Arial',
+                    'sans-serif',
+                    '"Apple Color Emoji"',
+                    '"Segoe UI Emoji"',
+                    '"Segoe UI Symbol"',
+                  ].join(',')}>Home</Typography></Button>
                 <Button color="inherit" ><Typography style={{
-                    fontWeight:700
-                }} variant="h5"
-                component="div" >Projects</Typography></Button>
-                <Button color="inherit" ><Typography style={{
-                    fontWeight:700
-                }} variant="h5"
-                component="div">Blog</Typography></Button>
+                    fontWeight:700,
+                    textTransform:"none"
+                }} variant="h4"
+                component="div" fontFamily={[
+                    '-apple-system',
+                    'BlinkMacSystemFont',
+                    '"Segoe UI"',
+                    'Roboto',
+                    '"Helvetica Neue"',
+                    'Arial',
+                    'sans-serif',
+                    '"Apple Color Emoji"',
+                    '"Segoe UI Emoji"',
+                    '"Segoe UI Symbol"',
+                  ].join(',')} >Projects</Typography></Button>
+                <Button color="inherit"><Typography style={{
+                    fontWeight:700,
+                    textTransform:"none"
+                }} variant="h4"
+                component="div"  fontFamily={[
+                    '-apple-system',
+                    'BlinkMacSystemFont',
+                    '"Segoe UI"',
+                    'Roboto',
+                    '"Helvetica Neue"',
+                    'Arial',
+                    'sans-serif',
+                    '"Apple Color Emoji"',
+                    '"Segoe UI Emoji"',
+                    '"Segoe UI Symbol"',
+                  ].join(',')}>Blog</Typography></Button>
                 
             </Toolbar>
         </AppBar>
