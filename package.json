@@ -41,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.12.0"
   },
   "resolutions": {
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"

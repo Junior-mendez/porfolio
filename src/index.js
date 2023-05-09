@@ -5,11 +5,13 @@ import reportWebVitals from './reportWebVitals';
 import Porfolio from './porfolio/Porfolio'
 import Header from './Header';
 import Footer from './Footer';
+import Home from './Home'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header/>
+    <Home/>
     <Footer/>
   </React.StrictMode>
 );

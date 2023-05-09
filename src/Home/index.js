@@ -1,33 +1,62 @@
 import * as React from "react"
-import AppBar from "@mui/material/AppBar"
-import Toolbar from "@mui/material/Toolbar"
-import Button from "@mui/material/Button"
+import Grid from "@mui/material/Grid"
 import Typography from "@mui/material/Typography"
+import Stack from "@mui/material/Stack"
+import { Avatar } from "@material-ui/core";
+import imageUrl from "../static/images/home/foto.png"
+import ContactMailIcon from '@mui/icons-material/ContactMail';
+import PlaceIcon from '@mui/icons-material/Place';
 export default function Header() {
     return(
-        <AppBar position="static" color="transparent">
-            <Toolbar  className="toolbar" style={
-                {
-                    justifyContent:"center",
-                    marginTop:"20px",
-                    marginBottom:"20px"
-                }
-            }>
-                <Button color="inherit" ><Typography style={{
-                    fontWeight:700
-                }} variant="h5"
-                component="div" >Home</Typography></Button>
-                <Button color="inherit" ><Typography style={{
-                    fontWeight:700
-                }} variant="h5"
-                component="div" >Projects</Typography></Button>
-                <Button color="inherit" ><Typography style={{
-                    fontWeight:700
-                }} variant="h5"
-                component="div">Blog</Typography></Button>
+        <Grid container spacing={2} columns={16}>
+            <Grid item  xs={8} style={{
+                textAlign:"center"
+            }}>
+                <Stack direction="row">
+                    <Avatar alt="Foto" src={imageUrl} style={{
+                        width:"50%",
+                        height:"50%",
+                        marginLeft:"25%",marginTop:"60px"
+                    }}/>
+                </Stack>
+                <Typography variant="h4" style={{
+                    marginTop:"20px"
+                }}>Junior Mendez</Typography>
+                <Typography variant="h6" style={{
+                    marginTop:"10px"
+                }}>Backen Developer</Typography>
+                <Typography variant="body1" ><ContactMailIcon fontSize="inherit"></ContactMailIcon> jrmendezlezcano@gmail.com</Typography>
+                 <Typography variant="body1" ><PlaceIcon fontSize="inherit"></PlaceIcon>Trujillo, Perú</Typography>
                 
-            </Toolbar>
-        </AppBar>
+            </Grid>
+            <Grid item  xs={8} style={{textAlign:"left",marginTop:"40px"}}>
+                <Typography variant="h2">Hola, Buen día</Typography>
+                <Typography variant="body1" style={{marginTop:"40px", marginRight:"80px",justifyContent:"center"}}>
+                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
+                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
+                    Sint esse deserunt nostrud quis duis ut dolore enim.
+                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
+                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
+                    Sint esse deserunt nostrud quis duis ut dolore enim.</Typography>
+                <Typography variant="h4">Frontend</Typography>
+                <Typography variant="body1" style={{marginTop:"40px", marginRight:"80px",justifyContent:"center"}}>
+                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
+                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
+                    Sint esse deserunt nostrud quis duis ut dolore enim.
+                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
+                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
+                    Sint esse deserunt nostrud quis duis ut dolore enim.</Typography>
+                <Typography variant="h4">Backend</Typography>
+                <Typography variant="body1" style={{marginTop:"40px", marginRight:"80px",justifyContent:"center"}}>
+                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
+                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
+                    Sint esse deserunt nostrud quis duis ut dolore enim.
+                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
+                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
+                    Sint esse deserunt nostrud quis duis ut dolore enim.</Typography>
+                    
+            </Grid>
+        </Grid>
     );
     
 }
