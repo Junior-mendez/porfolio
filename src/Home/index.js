@@ -33,7 +33,7 @@ export default function Header() {
                 }}>Junior Mendez</Typography>
                 <Typography variant="h6" style={{
                     marginTop:"10px"
-                }}>Backen Developer</Typography>
+                }}>Backend Developer</Typography>
                 <Grid container columns={3}>
                 <Grid item  xs={8} style={{
                 textAlign:"center"
