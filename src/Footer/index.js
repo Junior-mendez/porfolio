@@ -20,12 +20,12 @@ export default function Footer() {
                 }
             }>
                 
-                <IconButton size="large"><GitHubIcon fontSize="inherit"></GitHubIcon></IconButton>
-                <IconButton size="large"><LinkedInIcon fontSize="inherit"></LinkedInIcon></IconButton>
-                <IconButton size="large"><EmailIcon fontSize="inherit"></EmailIcon></IconButton>
-                <IconButton size="large"><FacebookIcon fontSize="inherit"></FacebookIcon></IconButton>
-                <IconButton size="large"><InstagramIcon fontSize="inherit"></InstagramIcon></IconButton>
-                <IconButton size="large"><YouTubeIcon fontSize="inherit"></YouTubeIcon></IconButton>
+                <IconButton size="large" target="_blank" href="https://github.com/Junior-mendez"><GitHubIcon fontSize="inherit"></GitHubIcon></IconButton>
+                <IconButton size="large" target="_blank" href="https://www.linkedin.com/in/junior-mendez-lezcano/"><LinkedInIcon fontSize="inherit"></LinkedInIcon></IconButton>
+                <IconButton size="large" target="_blank" href="mailto:jrmendezlezcano@gmail.com"><EmailIcon fontSize="inherit"></EmailIcon></IconButton>
+                <IconButton size="large" target="_blank" href="https://www.facebook.com/juniormendezl/"><FacebookIcon fontSize="inherit"></FacebookIcon></IconButton>
+                <IconButton size="large" target="_blank" href="https://www.instagram.com/juniormendezl/"><InstagramIcon fontSize="inherit"></InstagramIcon></IconButton>
+                <IconButton size="large" target="_blank" href="https://www.youtube.com/@juniormendezl"><YouTubeIcon fontSize="inherit"></YouTubeIcon></IconButton>
                
                 
               
@@ -33,7 +33,7 @@ export default function Footer() {
             <Thypography sx={{
                  flexGrow: 1,
                  textAlign: "center"
-            }}>Copyright © 2023 • Blog de Junior Mendez - Empecemos a programar</Thypography>
+            }}>Copyright © 2023 • Web de Junior Mendez - Empecemos a programar</Thypography>
         </AppBar>
     );
     
