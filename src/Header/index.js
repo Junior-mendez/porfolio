@@ -5,7 +5,7 @@ import Button from "@material-ui/core/Button"
 import Typography from "@mui/material/Typography"
 export default function Header() {
     return(
-        <AppBar position="sticky" color="default">
+        <AppBar position="sticky" color="inherit">
             <Toolbar  className="toolbar" style={
                 {
                     justifyContent:"center",

@@ -15,13 +15,9 @@ import ContactMailIcon from '@mui/icons-material/ContactMail';
 import PlaceIcon from '@mui/icons-material/Place';
 import GithubIcon from '@mui/icons-material/GitHub'
 import { IconButton, ImageList, ImageListItem } from "@mui/material";
-import Timeline  from '@mui/lab/Timeline'
-import TimelineItem from '@mui/lab/TimelineItem'
-import TimelineDot from '@mui/lab/TimelineDot'
-import TimelineConnector from '@mui/lab/TimelineConnector'
-import TimelineContent from '@mui/lab/TimelineContent'
-import TimelineSeparator from '@mui/lab/TimelineSeparator'
-export default function Header() {
+import TimeLineHome from "./timeline";
+
+export default function Home() {
     return(
         <Grid container spacing={2} columns={16}>
             <Grid item  xs={8} style={{
@@ -39,7 +35,7 @@ export default function Header() {
                 }}>Junior Mendez</Typography>
                 <Typography variant="h6" style={{
                     marginTop:"10px"
-                }}>Backend Developer</Typography>
+                }}>Software Engineer</Typography>
                 <Grid container columns={3}>
                 <Grid item  xs={8} style={{
                 textAlign:"center"
@@ -136,29 +132,8 @@ export default function Header() {
                     />
                     </ImageListItem>
                 </ImageList>
-                <Timeline>
-                    <TimelineItem>
-                    <TimelineSeparator>
-                        <TimelineDot />
-                        <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent>Eat</TimelineContent>
-                    </TimelineItem>
-                    <TimelineItem>
-                        <TimelineSeparator>
-                        <TimelineDot />
-                        <TimelineConnector />
-                        </TimelineSeparator>
-                        <TimelineContent>Code</TimelineContent>
-                    </TimelineItem>
-                    <TimelineItem>
-                        <TimelineSeparator>
-                        <TimelineDot />
-                        </TimelineSeparator>
-                        <TimelineContent>Sleep</TimelineContent>
-                    </TimelineItem>
-                </Timeline>
             </Grid>
+            <TimeLineHome></TimeLineHome>
         </Grid>
     );
     
