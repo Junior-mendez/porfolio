@@ -15,6 +15,12 @@ import ContactMailIcon from '@mui/icons-material/ContactMail';
 import PlaceIcon from '@mui/icons-material/Place';
 import GithubIcon from '@mui/icons-material/GitHub'
 import { IconButton, ImageList, ImageListItem } from "@mui/material";
+import Timeline  from '@mui/lab/Timeline'
+import TimelineItem from '@mui/lab/TimelineItem'
+import TimelineDot from '@mui/lab/TimelineDot'
+import TimelineConnector from '@mui/lab/TimelineConnector'
+import TimelineContent from '@mui/lab/TimelineContent'
+import TimelineSeparator from '@mui/lab/TimelineSeparator'
 export default function Header() {
     return(
         <Grid container spacing={2} columns={16}>
@@ -43,7 +49,7 @@ export default function Header() {
                 <Grid item  xs={8} style={{
                 textAlign:"center"
             }}>
-                <IconButton ><PlaceIcon fontSize="inherit"></PlaceIcon>Trujillo, Perú</IconButton>
+                <IconButton><PlaceIcon fontSize="inherit"></PlaceIcon>Trujillo, Perú</IconButton>
                 </Grid>
                 <Grid item  xs={8} style={{
                 textAlign:"center"
@@ -130,21 +136,28 @@ export default function Header() {
                     />
                     </ImageListItem>
                 </ImageList>
-                <Typography variant="body1" style={{marginTop:"40px", marginRight:"80px",justifyContent:"center"}}>
-                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
-                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
-                    Sint esse deserunt nostrud quis duis ut dolore enim.
-                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
-                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
-                    Sint esse deserunt nostrud quis duis ut dolore enim.</Typography>
-                <Typography variant="body1" style={{marginTop:"40px", marginRight:"80px",justifyContent:"center"}}>
-                Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
-                id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
-                Sint esse deserunt nostrud quis duis ut dolore enim.
-                Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
-                id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
-                Sint esse deserunt nostrud quis duis ut dolore enim.</Typography>
-                    
+                <Timeline>
+                    <TimelineItem>
+                    <TimelineSeparator>
+                        <TimelineDot />
+                        <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>Eat</TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineSeparator>
+                        <TimelineDot />
+                        <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent>Code</TimelineContent>
+                    </TimelineItem>
+                    <TimelineItem>
+                        <TimelineSeparator>
+                        <TimelineDot />
+                        </TimelineSeparator>
+                        <TimelineContent>Sleep</TimelineContent>
+                    </TimelineItem>
+                </Timeline>
             </Grid>
         </Grid>
     );
