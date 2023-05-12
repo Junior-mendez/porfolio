@@ -74,7 +74,8 @@ export default function Home() {
                      Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por
                       resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. 
                       Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras
-                       veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
+                       veces a propósito (por ejemplo insertándole humor y cosas por el estilo.
+                       Atte. Junior Mendez
                     </Typography>
                 <Typography variant="h4">Frontend</Typography>
                 <ImageList variant="masonry" cols={3} gap={1} sx={{
