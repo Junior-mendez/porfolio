@@ -66,6 +66,7 @@ export default function Home() {
                 />
                     Hola, Buen día</Typography>
                 <Typography variant="body1" style={{marginTop:"40px", marginRight:"80px",justifyContent:"center"}}>
+                    Soy un desarrollador de software, 
                     Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
                     id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
                     Sint esse deserunt nostrud quis duis ut dolore enim.
