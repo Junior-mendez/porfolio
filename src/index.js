@@ -6,6 +6,7 @@ import Porfolio from './porfolio/Porfolio'
 import Header from './Header';
 import Footer from './Footer';
 import Home from './Home'
+import Projects from './Projects'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

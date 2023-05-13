@@ -20,7 +20,7 @@ import TimeLineHome from "./timeline";
 export default function Home() {
     return(
         <Grid container spacing={2} columns={16}>
-            <Grid item  xs={8} style={{
+            <Grid item  xs={16} md={8} style={{
                 textAlign:"center"
             }}>
                 <Stack direction="row">
@@ -37,24 +37,24 @@ export default function Home() {
                     marginTop:"10px"
                 }}>Software Engineer</Typography>
                 <Grid container columns={3}>
-                <Grid item  xs={8} style={{
+                <Grid item  xs={16} md={8}  style={{
                 textAlign:"center"
             }}>
                 <IconButton href="mailto:jrmendezlezcano@gmail.com"><ContactMailIcon fontSize="inherit"></ContactMailIcon>jrmendezlezcano@gmail.com</IconButton>
                 </Grid>
-                <Grid item  xs={8} style={{
+                <Grid item  xs={16} md={8}  style={{
                 textAlign:"center"
             }}>
                 <IconButton><PlaceIcon fontSize="inherit"></PlaceIcon>Trujillo, Perú</IconButton>
                 </Grid>
-                <Grid item  xs={8} style={{
+                <Grid item xs={16} md={8}  style={{
                 textAlign:"center"
             }}>
                 <IconButton target="_blank" variant="body1" href="https://github.com/Junior-mendez" ><GithubIcon fontSize="inherit"></GithubIcon>Junior-mendez</IconButton>
                 </Grid>
                 </Grid>
             </Grid>
-            <Grid item  xs={8} style={{textAlign:"left",marginTop:"40px"}}>
+            <Grid item  xs={16} md={8}  style={{textAlign:"left",marginTop:"40px"}}>
                 <Typography variant="h2">
                     <img
                     width={50}
@@ -71,12 +71,17 @@ export default function Home() {
                     usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario
                      de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo 
                      un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el 
-                     Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por
-                      resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. 
-                      Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras
-                       veces a propósito (por ejemplo insertándole humor y cosas por el estilo.
-                       Atte. Junior Mendez
-                    </Typography>
+                     Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por 
+                     resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. 
+                     Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras
+                      veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
+                    
+                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
+                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
+                    Sint esse deserunt nostrud quis duis ut dolore enim.
+                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
+                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
+                    Sint esse deserunt nostrud quis duis ut dolore enim.</Typography>
                 <Typography variant="h4">Frontend</Typography>
                 <ImageList variant="masonry" cols={3} gap={1} sx={{
                     width: 150,
