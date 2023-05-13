@@ -29,7 +29,7 @@ export default function Header() {
                     '"Segoe UI Emoji"',
                     '"Segoe UI Symbol"',
                   ].join(',')}>Home </Typography></Button>
-                <Button color="inherit" href="/projects"><Typography style={{
+                <Button color="inherit" href="/porfolio/projects"><Typography style={{
                     fontWeight:700,
                     textTransform:"none"
                 }} variant="h4"
@@ -45,7 +45,7 @@ export default function Header() {
                     '"Segoe UI Emoji"',
                     '"Segoe UI Symbol"',
                   ].join(',')} >Projects</Typography></Button>
-                <Button color="inherit" href="/blog"><Typography style={{
+                <Button color="inherit" href="/porfolio/blog"><Typography style={{
                     fontWeight:700,
                     textTransform:"none"
                 }} variant="h4"
