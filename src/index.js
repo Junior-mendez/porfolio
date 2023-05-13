@@ -7,13 +7,13 @@ import Footer from './Footer';
 import Home from './Home'
 import Projects from './Projects'
 import Blog from './Blog';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import { HashRouter,Routes,Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-   <BrowserRouter>
+   <HashRouter>
    <Header></Header>
    <Routes>
     <Route path="/"  element={<Home />}/>
@@ -22,7 +22,7 @@ root.render(
     <Route path="/porfolio/blog"  element={<Blog />}/>
     </Routes>
     <Footer></Footer>
-   </BrowserRouter>
+   </HashRouter>
   </React.StrictMode>
 );
 
