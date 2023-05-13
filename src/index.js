@@ -18,8 +18,8 @@ root.render(
    <Routes>
     <Route path="/"  element={<Home />}/>
     <Route path="/porfolio"  element={<Home />}/>
-    <Route path="/porfolio/projects"  element={<Projects />}/>
-    <Route path="/porfolio/blog"  element={<Blog />}/>
+    <Route path="/projects"  element={<Projects />}/>
+    <Route path="/blog"  element={<Blog />}/>
     </Routes>
     <Footer></Footer>
    </HashRouter>
