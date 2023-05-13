@@ -13,7 +13,7 @@ export default function Header() {
                     marginBottom:"20px"
                 }
             }>
-                <Button color="inherit" ><Typography style={{
+                <Button color="inherit" href="/porfolio" ><Typography style={{
                     fontWeight:700,
                     textTransform:"none"
                 }} variant="h4"
@@ -28,8 +28,8 @@ export default function Header() {
                     '"Apple Color Emoji"',
                     '"Segoe UI Emoji"',
                     '"Segoe UI Symbol"',
-                  ].join(',')}>Home</Typography></Button>
-                <Button color="inherit" ><Typography style={{
+                  ].join(',')}>Home </Typography></Button>
+                <Button color="inherit" href="/projects"><Typography style={{
                     fontWeight:700,
                     textTransform:"none"
                 }} variant="h4"
@@ -45,7 +45,7 @@ export default function Header() {
                     '"Segoe UI Emoji"',
                     '"Segoe UI Symbol"',
                   ].join(',')} >Projects</Typography></Button>
-                <Button color="inherit"><Typography style={{
+                <Button color="inherit" href="/blog"><Typography style={{
                     fontWeight:700,
                     textTransform:"none"
                 }} variant="h4"
