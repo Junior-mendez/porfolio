@@ -28,7 +28,7 @@ export default function Projects() {
                     Projects
                 </Typography>
                 <Typography style={{
-                marginTop:"20px"
+                marginTop:"2cc0px"
             }}>Algunos de los proyectos que he construido o de los que he sido parte.</Typography>
             </Grid>
             <Grid item  xs={16} md={8} style={{

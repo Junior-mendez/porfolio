@@ -55,95 +55,82 @@ export default function Home() {
                 </Grid>
             </Grid>
             <Grid item  xs={16} md={8}  style={{textAlign:"left",marginTop:"40px"}}>
-                <Typography variant="h2">
-                    <img
-                    width={50}
-                    height={50}
-                    src={saludoURL}
-                    srcSet={saludoURL}
-                    alt={"JS"}
-                    loading="lazy"
-                />
-                    Hola, Buen día</Typography>
-                <Typography variant="body1" style={{marginTop:"40px", marginRight:"80px",justifyContent:"center"}}>
-                    Soy un desarrollador de software, Es un hecho establecido hace demasiado tiempo que un lector 
-                    se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de 
-                    usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario
-                     de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo 
-                     un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el 
-                     Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por 
-                     resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. 
-                     Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras
-                      veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
-                    
-                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
-                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
-                    Sint esse deserunt nostrud quis duis ut dolore enim.
-                    Irure ullamco cillum mollit dolor irure tempor dolore consectetur eu aliqua aliquip fugiat 
-                    id nisi. Ex ex nulla ut nulla mollit ad aliquip tempor excepteur deserunt esse in ut elit. 
-                    Sint esse deserunt nostrud quis duis ut dolore enim.</Typography>
-                <Typography variant="h4">Frontend</Typography>
-                <ImageList variant="masonry" cols={3} gap={1} sx={{
-                    width: 150,
-                    height: 50,
-                }}>
-                    <ImageListItem>
-                    <img
-                        src={logoJsURl}
-                        srcSet={logoJsURl}
+                    <Typography variant="h2">
+                        <img
+                        width={50}
+                        height={50}
+                        src={saludoURL}
+                        srcSet={saludoURL}
                         alt={"JS"}
                         loading="lazy"
                     />
-                    </ImageListItem>
-                    <ImageListItem>
-                    <img
-                        src={logoReactURl}
-                        srcSet={logoReactURl}
-                        alt={"React"}
-                        loading="lazy"
-                    />
-                    </ImageListItem>
-                    <ImageListItem>
-                    <img
-                        src={logoANURl}
-                        srcSet={logoANURl}
-                        alt={"Angular"}
-                        loading="lazy"
-                    />
-                    </ImageListItem>
-                </ImageList>
-                <Typography variant="h4">Backend</Typography>
-                <ImageList variant="masonry" cols={3} gap={1} sx={{
-                    width: 150,
-                    height: 50,
-                }}>
-                    <ImageListItem>
-                    <img
-                        src={javaURL}
-                        srcSet={javaURL}
-                        alt={"Java"}
-                        loading="lazy"
-                    />
-                    </ImageListItem>
-                    <ImageListItem>
-                    <img
-                        src={csharpURL}
-                        srcSet={csharpURL}
-                        alt={"CSharp"}
-                        loading="lazy"
-                    />
-                    </ImageListItem>
-                    <ImageListItem>
-                    <img
-                        src={springURL}
-                        srcSet={springURL}
-                        alt={"Spring"}
-                        loading="lazy"
-                    />
-                    </ImageListItem>
-                </ImageList>
+                        Hola, Buen día</Typography>
+                    <Typography variant="body1" style={{marginTop:"40px", marginBottom:"20px", marginRight:"80px",justifyContent:"center"}}>
+                    Soy Desarrollador de Software en Trujillo - Perú (Capital de la Primavera). 
+                    Me gusta mucho crear soluciones tecnologicas, tengo varios años trabajando 
+                    como desarrollador backend en Java con Spring Framework.</Typography>
+                    <Typography variant="h4">Frontend</Typography>
+                    <ImageList variant="masonry" cols={3} gap={1} sx={{
+                        width: 150,
+                        height: 50,
+                    }}>
+                        <ImageListItem>
+                        <img
+                            src={logoJsURl}
+                            srcSet={logoJsURl}
+                            alt={"JS"}
+                            loading="lazy"
+                        />
+                        </ImageListItem>
+                        <ImageListItem>
+                        <img
+                            src={logoReactURl}
+                            srcSet={logoReactURl}
+                            alt={"React"}
+                            loading="lazy"
+                        />
+                        </ImageListItem>
+                        <ImageListItem>
+                        <img
+                            src={logoANURl}
+                            srcSet={logoANURl}
+                            alt={"Angular"}
+                            loading="lazy"
+                        />
+                        </ImageListItem>
+                    </ImageList>
+                    <Typography variant="h4">Backend</Typography>
+                    <ImageList variant="masonry" cols={3} gap={1} sx={{
+                        width: 150,
+                        height: 50,
+                    }}>
+                        <ImageListItem>
+                        <img
+                            src={javaURL}
+                            srcSet={javaURL}
+                            alt={"Java"}
+                            loading="lazy"
+                        />
+                        </ImageListItem>
+                        <ImageListItem>
+                        <img
+                            src={csharpURL}
+                            srcSet={csharpURL}
+                            alt={"CSharp"}
+                            loading="lazy"
+                        />
+                        </ImageListItem>
+                        <ImageListItem>
+                        <img
+                            src={springURL}
+                            srcSet={springURL}
+                            alt={"Spring"}
+                            loading="lazy"
+                        />
+                        </ImageListItem>
+                    </ImageList>
+                <TimeLineHome></TimeLineHome>
             </Grid>
-            <TimeLineHome></TimeLineHome>
         </Grid>
     );
     
