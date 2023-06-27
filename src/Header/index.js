@@ -45,7 +45,7 @@ export default function Header() {
                     '"Segoe UI Emoji"',
                     '"Segoe UI Symbol"',
                   ].join(',')} >Projects</Typography></Button>
-                <Button color="inherit" href="/porfolio/#/blog"><Typography style={{
+                <Button  target="_blank" color="inherit" href="https://medium.com/@mendezj374"><Typography style={{
                     fontWeight:700,
                     textTransform:"none"
                 }} variant="h4"

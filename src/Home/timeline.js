@@ -16,7 +16,7 @@ import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 
 export default function TimeLineHome() {
     return (
-        <Timeline >
+        <Timeline position='left'>
             <TimelineItem>
                 <TimelineOppositeContent
                     sx={{ m: 'auto 0' }}
