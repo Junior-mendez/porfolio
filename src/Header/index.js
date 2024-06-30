@@ -29,7 +29,7 @@ export default function Header() {
                     '"Segoe UI Emoji"',
                     '"Segoe UI Symbol"',
                   ].join(',')}>Home </Typography></Button>
-                <Button color="inherit" href="/porfolio/#/projects"><Typography style={{
+                <Button target="_blank" color="inherit" href="https://github.com/Junior-mendez"><Typography style={{
                     fontWeight:700,
                     textTransform:"none"
                 }} variant="h4"
